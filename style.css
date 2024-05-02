@@ -6,7 +6,7 @@ body {
 #logo {
     display: flex;
     margin: 2em auto;
-    width: 15%;
+    width: 20em;
 }
 
 #container {
@@ -17,17 +17,17 @@ body {
 
 #video {
     margin: auto;
-    width: 720px;
+    width: 100%;
 }
-
-
 
 a {
     text-decoration: none;
+    color: olive;
 }
 
 a:hover {
-    text-decoration:underline;
+    /* Qaundo passo sul link si sottolinea */
+    text-decoration:underline; 
 }
 
 h1 {
