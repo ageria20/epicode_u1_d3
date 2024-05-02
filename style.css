@@ -15,9 +15,11 @@ body {
 
 }
 
-#video-yt {
+#video {
     margin: auto;
+    width: 720px;
 }
+
 
 
 a {
@@ -35,7 +37,7 @@ h1 {
  
 #bg-light {
     color: rgb(100, 187, 216);
-    background-color: rgba(235, 214, 187, 0.527);
+    background-color: rgba(235, 214, 187, 0.205);
     height: 3.5em;
     border-top: 3px solid rgb(252, 222, 182);
     text-align: center;

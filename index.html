@@ -14,13 +14,17 @@
   </head>
   <body>
     <header>
+      <!-- Imposta l'id del logo per centrarlo -->
       <img src="./assets/logo.png" alt="logo-simply" id="logo" />
     </header>
     <main>
+      <!-- Creo una sezione principale -->
       <section>
+        <!-- Creo il primo contenitore con uno sfondo che prende tutta la pagina -->
         <article id="bg-light">
           <p>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong></p>
         </article>
+        <!-- Creo un div contenitore che conterrà tutto il corpo della ricetta -->
         <div id="container">
           <article>
             <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
@@ -29,23 +33,25 @@
               with sweet caramelized onions, tart cranberries, and creamy brie.
               It will become your new favourite holiday starter!
             </p>
-            <iframe
-              id="video-yt"
-              width="720"
-              height="420"
-              src="https://www.youtube.com/embed/9zGbBFZ1Oc4?si=os8hi-iOXURGL3dY"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <!-- Video della ricetta -->
+            <video
+              id="video"
+              controls
+              poster="./assets/focaccia.png"
+              width="250"
+            >
+              <source
+                src="./assets/FOCACCIA - la RICETTA PERFETTA per un IMPASTO MORBIDO e PROFUMATO😋🌿.mp4"
+                type="video/mp4"
+              />
+            </video>
             <p id="img-description">Image: Sally Vegas</p>
           </article>
           <article id="feature">
             <p><strong>FEATURED IN:</strong></p>
             <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
           </article>
+          <!-- Creo un contenitore per le liste, essendo tutte e due uguali -->
           <article id="lists">
             <div id="line">
               <h2>Ingredients</h2>
